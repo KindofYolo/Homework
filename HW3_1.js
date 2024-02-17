@@ -1,27 +1,27 @@
-function drawTriangle(height, symbol) {
+/* function drawTriangle(size, symbol) {
     let line = '';
 
-    for (let i = 1; i <= height; i++) {
+    for (let i = 1; i <= size; i++) {
         line += symbol;
         console.log(line);
     }
 }
 
-drawTriangle(8, '$');
+drawTriangle(8, '$');   */
 
 
 
 
 
-/*function drawTriangle(height, symbol) {
+function drawTriangle(size, symbol) {
     let line = '';
     let i = 1;
 
-    while (i <= height) {
+    while (i <= size) {
         line += symbol;
         console.log(line);
         i++;
     }
 }
 
-drawTriangle(10, '=');    */
+drawTriangle(10, '=');    
