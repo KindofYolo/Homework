@@ -5,7 +5,7 @@ let Cat = {
 
    getInfo() {
     for (let key in Cat) {
-      if (this.hasOwnProperty(key) && typeof this[key] !== 'function') {    // If Я украл, я не допер как сделать , 100 не ставь.Иначе у меня выводился getInfo: f или тупо был цикл бесконечный, короче я сдался)))
+      if (typeof this[key] !== 'function') {  
         console.log(key + ': ' + this[key]);
       }
     }
